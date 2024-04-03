@@ -69,7 +69,7 @@ class CountryDAOImp implements CountryDAO {
                 countryMap.add(countryDetails);
               }
         } catch (Exception e) {
-            throw new Exception("Error while Displaying countries",e);
+            throw new Exception("Error while Displaying countries!!",e);
         }
 		finally {
 			try {
@@ -107,7 +107,7 @@ class CountryDAOImp implements CountryDAO {
                 countryDetails.put("Famous Place", rs.getString("famous_Place"));
             }
         } catch (Exception e) {
-            throw new Exception("Error while Displaying country", e);
+            throw new Exception("Error while Displaying country!!", e);
 
         }
 		finally {
